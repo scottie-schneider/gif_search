@@ -1,0 +1,23 @@
+{
+  "name": "gif-search",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://scottie-schneider.github.io/gif_search",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
